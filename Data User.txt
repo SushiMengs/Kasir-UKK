@@ -6,4 +6,4 @@ password: william1
 
 Petugas
 Username: Yoga
-Password kasir2
+Password: yoga1

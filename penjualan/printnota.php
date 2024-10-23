@@ -43,7 +43,7 @@ if (isset($_GET['penid'])) {
 				Jl. Siliwangi No. 30 Kadipaten Majalengka<br>
 				Telp. 08998363615 <br>
 			</center>
-			<?php echo str_repeat("=", 52) ?>
+			<?php echo str_repeat("=", 36) ?>
 			<table width="100%" cellspacing="0">
 				<tr>
 					<td style="padding:2px 5px;">Tgl : <?= $tgl ?></td>
@@ -58,7 +58,7 @@ if (isset($_GET['penid'])) {
 					<td style="padding:2px 5px;">Kasir : <?= $npet ?></td>
 				</tr>
 			</table>
-			<?php echo str_repeat("-", 52) ?>
+			<?php echo str_repeat("-", 36) ?>
 			<table width="100%" cellspacing="0">
 				<?php
 				include "../config.php";
@@ -91,7 +91,7 @@ if (isset($_GET['penid'])) {
 			<table width="100%" cellspacing="0">
 				<tr>
 					<td colspan="3">
-						<?= str_repeat("-", 51) ?>
+						<?= str_repeat("-", 36) ?>
 					</td>
 				</tr>
 				<tr>
@@ -107,7 +107,7 @@ if (isset($_GET['penid'])) {
 					<td align="right" style="padding:5px 5px;"><?= $kbl ?></td>
 				</tr>
 			</table>
-			<?= str_repeat("-", 52) ?>
+			<?= str_repeat("-", 36) ?>
 			<br>
 			<center>
 				Terima Kasih atas Kunjungan Anda <br>
